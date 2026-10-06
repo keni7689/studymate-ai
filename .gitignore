@@ -1,0 +1,19 @@
+venv/
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+# Vector database (rebuilt from your notes)
+data/chroma/*
+!data/chroma/.gitkeep
+# Your private notes
+data/documents/*
+!data/documents/.gitkeep
+# Downloaded models / caches
+.cache/
+huggingface/
+models/
+*.safetensors
+*.bin
+*.gguf

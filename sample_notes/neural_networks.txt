@@ -1,0 +1,9 @@
+Neural Networks
+
+A neural network is made of layers of connected neurons. Each neuron multiplies its inputs by weights, adds a bias, and applies an activation function such as ReLU or sigmoid.
+
+Backpropagation
+Backpropagation is the algorithm used to train neural networks. After a forward pass computes the prediction and the loss, backpropagation uses the chain rule to compute the gradient of the loss with respect to every weight, moving backward from the output layer to the input layer. These gradients are then used by gradient descent to update the weights.
+
+Convolutional Neural Networks (CNN)
+A CNN is a neural network designed for images. Convolutional layers slide small filters over the image to detect patterns such as edges, then textures, then shapes. Pooling layers shrink the feature maps and make the network less sensitive to small shifts. Fully connected layers at the end produce the final classification.
